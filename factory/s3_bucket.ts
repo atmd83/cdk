@@ -10,7 +10,6 @@ import { Construct } from "constructs";
 import { AccountRootPrincipal, IPrincipal, PolicyStatementProps } from "aws-cdk-lib/aws-iam";
 
 export interface GenericBucketProps {
-  prefix?: string;
   name: string;
   policy_statements?: {
     actions: string[]
